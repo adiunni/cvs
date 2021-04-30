@@ -1,0 +1,30 @@
+.main{
+    height: 60vh;
+}
+
+
+.background1{
+    background-image: url('https://via.placeholder.com/1920x1080/342175');
+}
+
+.background2{
+    background-image: url('https://via.placeholder.com/1920x1080/fdgfdf');
+}
+
+.background3{
+    background-image: url('https://via.placeholder.com/1920x1080/740909');
+}
+
+.background4{
+    background-image: url('https://via.placeholder.com/1920x1080/343175');
+}
+
+.background5{
+    background-image: url('https://via.placeholder.com/1920x1080/fdgfdf');
+}
+
+.h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
