@@ -15,7 +15,6 @@ export default function SliderComp(){
         autoplay:true,
         autoplaySpeed:3000,
         loop:true,
-        centerMode:true,
     };
 
     return (

@@ -1,11 +1,12 @@
-import { Box,Text } from '@chakra-ui/react'
+import { Box, Text } from '@chakra-ui/react'
+import Image from 'next/image'
 
 export default function Logo(props){
     return (
         <Box>
-            <Text fontSize='lg' fontWeight='bold'>
+           <Text color='#2e5787' fontWeight='bold' fontSize='16pt'>
                 COVS
-            </Text>
+           </Text>
         </Box>
     )
 }
