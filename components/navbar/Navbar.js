@@ -14,7 +14,7 @@ const CloseIcon = () => (
   <svg width="24" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
     <title>Close</title>
     <path
-      fill="white"
+      fill="blue"
       d="M9.00023 7.58599L13.9502 2.63599L15.3642 4.04999L10.4142 8.99999L15.3642 13.95L13.9502 15.364L9.00023 10.414L4.05023 15.364L2.63623 13.95L7.58623 8.99999L2.63623 4.04999L4.05023 2.63599L9.00023 7.58599Z"
     />
   </svg>
@@ -25,7 +25,7 @@ const MenuIcon = () => (
     width="24px"
     viewBox="0 0 20 20"
     xmlns="http://www.w3.org/2000/svg"
-    fill="white"
+    fill="blue"
   >
     <title>Menu</title>
     <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
@@ -39,7 +39,7 @@ const Navbar = (props) => {
     <NavbarContainer {...props}>
       <Logo
         w="100px"
-        color={["white", "white", "blue", "blue"]}
+        color={["blue", "blue", "blue", "blue"]}
       />
       <MenuToggle toggle={toggle} isOpen={isOpen} />
       <MenuLinks isOpen={isOpen} />
@@ -71,18 +71,18 @@ const MenuLinks = ({isOpen}) => {
         pt={[4, 4, 0, 0]}
       >
         <MenuItem to="/">Home</MenuItem>
-        <MenuItem to="/">About Us</MenuItem>
         <MenuItem to="/">Publications</MenuItem>
         <MenuItem to="/">Contact Us</MenuItem>
         <MenuItem to="/" isLast>
           <Button
             size="sm"
             rounded="md"
-            color={["blue", "blue", "white", "white"]}
-            bg={["white", "white", "blue", "blue"]}
+            color={["white", "white", "white", "white"]}
+            bg={["blue", "blue", "blue", "blue"]}
             _hover={{
               bg: ["blue.100", "blue.100", "blue.900", "blue.900"]
             }}
+            textDecoration='none'
           >
             Membership
           </Button>
@@ -102,8 +102,8 @@ const NavbarContainer = ({children,props}) => {
       w="100%"
       mb={8}
       p={8}
-      bg={["blue", "blue", "transparent", "transparent"]}
-      color={["white", "white", "blue", "blue"]}
+      bg={["white", "white", "transparent", "transparent"]}
+      color={["blue", "blue", "blue", "blue"]}
       {...props}
     >
       {children}

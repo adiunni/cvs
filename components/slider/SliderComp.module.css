@@ -4,27 +4,27 @@
 
 
 .background1{
-    background-image: url('https://via.placeholder.com/1920x1080/342175');
+    background-color: red;
 }
 
 .background2{
-    background-image: url('https://via.placeholder.com/1920x1080/fdgfdf');
+    background-color: blue;
 }
 
 .background3{
-    background-image: url('https://via.placeholder.com/1920x1080/740909');
+    background-color: yellow;
 }
 
 .background4{
-    background-image: url('https://via.placeholder.com/1920x1080/343175');
+    background-color: green;
 }
 
 .background5{
-    background-image: url('https://via.placeholder.com/1920x1080/fdgfdf');
+    background-color: cyan;
 }
 
 .h1{
     font-size: 40px;
     font-weight: bold;
-    color: white;
+    color: black;
 }
