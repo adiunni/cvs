@@ -104,6 +104,7 @@ const NavbarContainer = ({children,props}) => {
       p={8}
       bg={["white", "white", "transparent", "transparent"]}
       color={["#2e5787", "#2e5787", "#2e5787", "#2e5787"]}
+      boxShadow='sm'
       {...props}
     >
       {children}

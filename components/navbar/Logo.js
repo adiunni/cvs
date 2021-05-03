@@ -5,7 +5,7 @@ export default function Logo(props){
     return (
         <Box>
            <Text color='#2e5787' fontWeight='bold' fontSize='16pt'>
-                COVS
+                Council of Vibration Specialists
            </Text>
         </Box>
     )

@@ -3,7 +3,31 @@
 }
 
 .heading{
-    font-size: 40pt;
+    font-size: 35pt;
     font-weight: bold;
-    font-family: 'Montserrat' sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #2e5787;
+}
+
+.heading2{
+    font-size: 35pt;
+    font-weight: bold;
+    font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+.paragraph{
+    font-size: 13pt;
+    font-family: 'Montserrat',sans-serif;
+    text-align: left;
+    color: #2e5787;
+}
+
+.paragraph2{
+    font-size: 13pt;
+    font-family: 'Montserrat',sans-serif;
+    color: white;
 }

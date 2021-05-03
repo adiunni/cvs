@@ -11,14 +11,14 @@ export default function SliderComp(){
         dots:true,
         infinite:true,
         speed:700,
-        slidesToShow:1,
+        slidesToShow:4,
         autoplay:true,
         autoplaySpeed:3000,
         loop:true,
     };
 
     return (
-        <Box height={['170vh,130vh,70vh']}pl={1} pr={2}>
+        <Box height='40vh' pl={1} pr={2}>
             <Slider {...settings}>
                 <div className={[styles.main,styles.background1].join(" ")}>
                     <Center>
