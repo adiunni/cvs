@@ -5,6 +5,18 @@ import 'slick-carousel/slick/slick-theme.css'
 import 'slick-carousel/slick/slick.css'
 import { Center,Box } from '@chakra-ui/layout';
 
+function Arrow(props){
+    let className = props.type === "next" ? "nextArrow" : "prevArrow";
+    className += "arrow"
+    const char = props.type === "next" ? "🔜":"🔙"
+    return (
+        <span className={className} onClick={props.onClick}>
+            {char}
+        </span>
+    )
+}
+
+
 export default function SliderComp(){
 
     const settings = {
@@ -15,10 +27,11 @@ export default function SliderComp(){
         autoplay:true,
         autoplaySpeed:3000,
         loop:true,
+        arrows:true,
     };
 
     return (
-        <Box height={['170vh,130vh,70vh']}pl={1} pr={2}>
+        <Box height={['170vh,130vh,70vh']} px={10}>
             <Slider {...settings}>
                 <div className={[styles.main,styles.background1].join(" ")}>
                     <Center>
