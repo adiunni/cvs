@@ -61,7 +61,10 @@ export default function Home(){
             </p>
           </Box>
       </Flex>
-      {/* <SliderComp2/> */}
+      <SliderComp2/>
+      <Box bg='darkgray' height='auto' d='flex'>
+          {/* Todo: Add sections */}
+      </Box>
       <Footer/>
     </div>
   )

@@ -31,7 +31,7 @@ export default function SliderComp(){
     };
 
     return (
-        <Box height={['170vh,130vh,70vh']} px={10}>
+        <Box height={['170vh,130vh,70vh']} px={10} bg='gray.200'>
             <Slider {...settings}>
                 <div className={[styles.main,styles.background1].join(" ")}>
                     <Center>

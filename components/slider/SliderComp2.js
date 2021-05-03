@@ -26,12 +26,11 @@ export default function SliderComp(){
         autoplay:true,
         autoplaySpeed:3000,
         loop:true,
-        arrow:true, 
     };
 
     return (
-        <Box height='40vh' pl={1} pr={2}>
-            <Slider {...settings} nextArrow={<Arrow type="next"/>} prevArrow={<Arrow type="prev"/>}>
+        <Box height='auto' px={10} bg='gray.50'>
+            <Slider {...settings}>
                 <div className={[styles.main,styles.background1].join(" ")}>
                     <Center>
                         <h1 className={styles.h1}>1</h1>
